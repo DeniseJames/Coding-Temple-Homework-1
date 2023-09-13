@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="styles2.css">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <h1>Denise James, BSEE, MSEE</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Contact Us</h2>
+    <form action="www.denisejames.dev" method="POST">
+        <!-- Text Input for Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <!-- Textarea for Message -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="8" required></textarea>
+        <br>
+
+        <!-- Radio Buttons for Gender -->
+        <label>Gender:</label>
+        <br>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="male">Male</label>
+        <input type="radio" id="no_answer" name="gender" value="no_answer">
+        <label for="no_answer">No Answer</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+
+        <!-- Checkbox for Newsletter -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

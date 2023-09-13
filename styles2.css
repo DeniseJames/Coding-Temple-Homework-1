@@ -1,0 +1,85 @@
+/* styles2.css */
+
+/* Global Styles */
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Add a margin to the entire body */
+    padding: 20px; /* Add padding to the entire body */
+}
+
+h1 {
+    font-size: 24px; /* Increase heading size */
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+form {
+    background-color: #f7f7f7; /* Add a background color to the form */
+    padding: 20px; /* Add padding to the form */
+    border-radius: 5px; /* Add rounded corners to the form */
+}
+
+label {
+    display: block; /* Make labels block-level for better spacing */
+    margin-bottom: 10px; /* Add margin below labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px; /* Add padding to form fields */
+    margin-bottom: 15px; /* Add margin below form fields */
+    border: 1px solid #ccc; /* Add a border to form fields */
+    border-radius: 3px; /* Add rounded corners to form fields */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px; /* Add margin to radio and checkbox elements */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Change button color */
+    color: #fff; /* Change text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove button border */
+    border-radius: 3px; /* Add rounded corners to the button */
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
